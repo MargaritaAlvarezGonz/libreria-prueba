@@ -1,0 +1,22 @@
+.ngx-header{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0 35px;
+}
+
+.ngx-header .block {
+    display: flex;
+    align-content:center;
+    align-items: center;
+}
+.ngx-header .block ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap:20px;
+}
+
+.ngx-header .block ul li{
+    padding: 0;
+}
